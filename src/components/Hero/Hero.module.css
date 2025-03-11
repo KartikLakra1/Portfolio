@@ -1,11 +1,13 @@
 @import "../../vars.css";
 
 .container {
+
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  gap: 50px;
+  margin-top: 100px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
@@ -21,8 +23,9 @@
 
 .title {
   font-size: 72px;
+  text-decoration: underline;
   font-weight: 900;
-  margin-bottom: 33px;
+  margin-bottom: 20px;
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
@@ -53,15 +56,16 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 30%;
   z-index: 1;
   margin-bottom: 15px;
+  padding: 10px;
 
   animation-name: floating;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  border-radius: 50%;
+  border-radius: 60% 40%;
 }
 
 @keyframes floating {
@@ -106,10 +110,46 @@
 
 @media screen and (max-width: 830px) {
   .container {
+    position: relative;
+    display: flex;
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 50px; */
+    margin-top: 100px;
+    z-index: 1;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
   }
-
   .content {
     align-items: center;
+  }
+
+  .heroImg {
+    width: 70%;
+    z-index: 1;
+    /* margin-bottom: 15px; */
+    /* padding: 10px; */
+  
+    animation-name: floating;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border-radius: 60% 40%;
+  }
+  .title {
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 120%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
   }
 }
