@@ -9,16 +9,13 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Kartik</h1>
         <p className={styles.description}>
-          I am a passionate and dedicated fullstack developer and aspiring
-          software developer. With a strong foundation in both front-end and
-          back-end technologies, I thrive on building dynamic, responsive, and
-          user-centric web applications. Reach out if you'd like to learn more!
+          "I am a passionate full-stack developer and aspiring software engineer
+          with a strong foundation in both front-end and back-end technologies.
+          I specialize in building dynamic, responsive, and user-centric web
+          applications. Always eager to learn and innovate, I welcome
+          opportunities to collaborate and create impactful solutions. Feel free
+          to reach out!"
         </p>
-        <a
-          href="mailto:3603kartiklakra@gmail.com"
-          className={styles.contactBtn}>
-          Contact Me
-        </a>
       </div>
       <img
         src={"/resume_image.jpg"}

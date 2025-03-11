@@ -3,7 +3,7 @@
 .container {
   color: var(--color-text);
   margin-top: 120px;
-  background-color: var(--color-secondary);
+  background-color: rgb(33, 34, 49);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -26,8 +26,9 @@
 
 .links {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   list-style: none;
   gap: 26px;
 }
