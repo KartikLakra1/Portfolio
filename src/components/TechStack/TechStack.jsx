@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils";
 
 const TechStack = () => {
   return (
-    <section className={styles.container} id="experience">
+    <section className={styles.container} id="techstack">
       <h1 className={styles.title}>TECH STACK</h1>
       <div className={styles.skills}>
         {skills.map((skill, id) => {
