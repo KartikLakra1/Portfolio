@@ -1,10 +1,26 @@
 [
   {
     "role": "Full Stack Developer",
-    "organisation": "USIP , DTU",
-    "startDate": "Sept , 2023",
-    "endDate": "Dec , 2023",
-    "experiences": ["Worked on workflow optimization", "Helped modify UI"],
+    "organisation": "NexSpace",
+    "startDate": "Jan 2024",
+    "endDate": "Feb 2024",
+    "experiences": [
+      "Developed AI-powered interview simulation using Google Gemini",
+      "Implemented authentication with Auth0",
+      "Designed API routes for interview scheduling and response generation",
+      "Optimized database schema for user and admin roles"
+    ],
+    "imageSrc": "history/internship.png"
+  },
+  {
+    "role": "Full Stack Developer",
+    "organisation": "USIP, DTU",
+    "startDate": "Sept 2023",
+    "endDate": "Dec 2023",
+    "experiences": [
+      "Worked on workflow optimization",
+      "Helped modify UI"
+    ],
     "imageSrc": "history/internship.png"
   }
 ]
