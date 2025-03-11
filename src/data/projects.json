@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Car DealerShip Frontend",
+    "imageSrc": "projects/rockerMotors.png",
+    "description": "Developed a sleek, responsive car dealership website using Vite and Styled Components, showcasing dynamic frontend capabilities and modern design.",
+    "skills": ["React", "styled componenets", "javascript", "react props"],
+    "demo": "https://rockermotors-kartiklakra.netlify.app/",
+    "source": "https://github.com/KartikLakra1/CAR-DEALERSHIP-FRONTEND"
+  },
+  {
+    "title": "Blog App",
+    "imageSrc": "projects/blogapp-2.png",
+    "description": "Developed a sleek, responsive, api driven Blog app where you can document your life, with user auth functionality and scalable architecture and modern touch",
+    "skills": [
+      "React",
+      "tailwind css",
+      "material ui",
+      "node js",
+      "mongoose",
+      "dynamic routing"
+    ],
+    "demo": "https://blog-site-0000.netlify.app/",
+    "source": "https://github.com/KartikLakra1/BLOG-APP"
+  },
+  {
+    "title": "E-commerce",
+    "imageSrc": "projects/ecommerceApp.png",
+    "description": "Fullstack Ecommerce website , with admin dashboard, private routing, add to cart, redux toolkit, tailwindcss , nodejs , jwt , filter products functionality , dynamic routing and sleek ui/ux and material ui",
+    "skills": [
+      "React",
+      "tailwind css",
+      "material ui",
+      "node js",
+      "mongoose",
+      "bcrypt"
+    ],
+    "demo": "",
+    "source": "https://github.com/KartikLakra1/Ecommerce-MERN-2024"
+  },
+  {
+    "title": "Disney+ Frontend clone",
+    "imageSrc": "projects/disneyCLONE.png",
+    "description": "This is clone site to showcase ui/ux skills with tailwind css and material ui, Special thanks to movieDb publishing the API, api testing and fetching with cutting edge modern sleek look",
+    "skills": [
+      "React",
+      "tailwind css",
+      "material ui",
+      "Api fetching",
+      "react hooks"
+    ],
+    "demo": "https://disneykartik.netlify.app/",
+    "source": "https://github.com/KartikLakra1/Disney--frontend"
+  }
+]
